@@ -9,6 +9,8 @@ public class SquareTrinomial{
         array[2]=c;
     }
     public double[] solveEquetion(){
+        System.out.println("Уррра!");
+
         double[] result;
         double temp = Math.pow(array[1],2)-4*array[0]*array[2];             // считаем дискриминант
         if(temp>0) {                                                   // если больше нуля, находим 2 корня
